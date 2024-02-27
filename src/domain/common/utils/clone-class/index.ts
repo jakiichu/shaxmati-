@@ -1,0 +1,1 @@
+export const cloneClass = (item: unknown) => Object.assign(Object.create(Object.getPrototypeOf(item)), item)
